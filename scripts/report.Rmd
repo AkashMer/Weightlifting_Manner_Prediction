@@ -435,7 +435,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
 
 # **CONCLUSION**
   
-### **Thus the combined random forests model with bootstrapping controlling for out-of-bag accuracy, which stacked a gradient boost model with 5-fold repeated cross validation and a k-nearest neighbors model with 10-fold cross validation achieved with a will be used to estimate the manner of weightlifting in the datToPredict data set**  
+### **Thus the combined random forests model with bootstrapping controlling for out-of-bag accuracy, which stacked a gradient boost model with 5-fold repeated cross validation and a k-nearest neighbors model with 10-fold cross validation will be used to estimate the manner of weightlifting in the datToPredict data set**  
 ### **Out-of-sample Accuracy Rate of this model : `r round(confMatCombRF$overall[1]*100, 2)`% with 95% confidence interval of (`r round(confMatCombRF$overall[3]*100, 2)`%,`r round(confMatCombRF$overall[4]*100, 2)`%)**  
 ### **Out-of-sample Error Rate of this model: `r (100-round(confMatGBM$overall[1]*100, 2))`%**
 

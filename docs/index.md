@@ -534,7 +534,7 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
   
 ### **Thus the combined random forests model with bootstrapping controlling for out-of-bag accuracy, which stacked a gradient boost model with 5-fold repeated cross validation and a k-nearest neighbors model with 10-fold cross validation will be used to estimate the manner of weightlifting in the datToPredict data set**  
 ### **Out-of-sample Accuracy Rate of this model : 98.65% with 95% confidence interval of (98.24%,98.99%)**  
-### **Out-of-sample Error Rate of this model: 3.65%**
+### **Out-of-sample Error Rate of this model: 1.35% with 95% confidence interval of (1.01%,1.76%)**
 
 </div>
 
@@ -1126,4 +1126,4 @@ Written in **Rmarkdown file in R version 4.3.1 (2023-06-16 ucrt) using RStudio I
 * **gt** : *Version 0.9.0*  
   
 **Creation Date of Rmarkdown file :** 2023-07-21 23:54:53.635206  
-**Last Modified Date of Rmarkdown file :** 2023-07-22 01:23:10.831152
+**Last Modified Date of Rmarkdown file :** 2023-07-22 03:16:18.179277

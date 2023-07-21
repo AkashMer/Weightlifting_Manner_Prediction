@@ -1,0 +1,14 @@
+ggplot2
+lattice
+caret
+dplyr
+GGally
+data.table
+gbm
+kknn
+scales
+cowplot
+gt
+gridExtra
+RColorBrewer
+randomForest

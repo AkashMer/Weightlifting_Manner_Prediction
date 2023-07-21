@@ -1,0 +1,31 @@
+---
+title: "Framework"
+author: Akash Mer
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This file records all the steps along the creation of this project
+  
+1. **Creating a Github Repository** : A public github repository with the **name : Weightlifting_Manner_Prediction** and *caption : A repository for a course project on predicting how well weightlifting exercise is performed* is created with a *README.md* file on the author's Github page. All other options were kept to default
+2. **Creating a R project** : A new Rproject with the same name was created and assigned version control from the above mentioned [repository](https://github.com/AkashMer/Weightlifting_Manner_Prediction.git) on the author's local RStudio IDE
+3. **Creating and editing the framework file** : A new framework file with the **name : framework.Rmd** was created which records and lists all the steps taken along the production of report
+4. **Setting the working directory of the framework file** : Root directory of the framework file was set to the project directory
+5. **Creating subdirectories for data, raw scripts and output**
+```{r createDir, cache=TRUE}
+if(!dir.exists("scripts")) dir.create("scripts")
+if(!dir.exists("data")) dir.create("data")
+if(!dir.exists("output")) dir.create("output")
+```
+6. **Saving the framework.Rmd file** : The framework file is saved to the *scripts* sub directory manually by using the RStudio IDE interface
+7. **Creating a eda.R file** : A R script file was created to conduct preliminary exploratory data analysis on the data set. This file will not contain any highly descriptive comments and is only for the purposes of the author
+```{r EDA, cache=TRUE, dependson="createDir"}
+if(!file.exists("eda.R")) file.create("eda.R")
+```
+8. **Creating the report Rmarkdown file** : A rmarkdown file by the name report.Rmd is created to produce a reproducible report on predicting weightlifting mistakes based on sensor data
+```{r report, cache=TRUE, dependson="createDir"}
+if(!file.exists("report.Rmd")) file.create("report.Rmd")
+```

@@ -1,3 +1,5 @@
+# **Kindly visit the following site to view the report, no need to download the repository, this is a github pages site, [GitHub Pages Site for the project](https://akashmer.github.io/Weightlifting_Manner_Prediction/)**
+  
 # **Weightlifting_Manner_Prediction**
 
 A repository for a course project on predicting how well weightlifting exercise is performed
